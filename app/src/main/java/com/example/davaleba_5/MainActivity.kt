@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         var tvPassword = findViewById<TextView>(R.id.passwordLogin)
         var registerBtn = findViewById<Button>(R.id.registerButton)
         registerBtn.setOnClickListener {
-            registerUser(tvEmail, tvPassword)`
+            registerUser(tvEmail, tvPassword)
         }
     }
     private fun registerUser(email: TextView, password: TextView){
